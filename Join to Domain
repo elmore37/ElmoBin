@@ -1,0 +1,1 @@
+start /wait psexec.exe -s -h \\hostname1 "netdom.exe join %computername% /domain:DomainName /UserD:DomainName\UserName /PasswordD:Password"
