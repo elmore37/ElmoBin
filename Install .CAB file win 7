@@ -1,0 +1,1 @@
+start /w Pkgmgr /ip /m:c:\Windows6.0-KB92xxx-x86.cab /quiet /norestart
