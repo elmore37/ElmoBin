@@ -1,0 +1,13 @@
+set wshbin = createobject("wscript.shell")
+output = wshbin.run("telnet 172.168.201.1")
+wscript.sleep(400)
+wshbin.Sendkeys "lbp~"
+wscript.sleep(100)
+wshbin.Sendkeys "lbp201~"
+wscript.sleep(100)
+wshbin.Sendkeys "enable~"
+wscript.sleep(100)
+wshbin.Sendkeys "lbp201~"
+set wshbin = nothing
+wscript.sleep(100)
+wscript.quit
